@@ -3,4 +3,5 @@
   def hello
     render html: "Hey There!"
   end
+  include SessionsHelper
 end
